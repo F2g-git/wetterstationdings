@@ -9,8 +9,8 @@ Stepper stepper(stepsPerRevolution, 21, 19, 18, 5); // Pins für den Stepper Mot
 volatile float currentPosition = 0; // Aktuelle Position des Motors
 const int hallSensorPin = 34;
 //const float startPosition = 90; // Startposition des Zeigers (in Grad)
-const float startPositionInSteps = 0; // Startposition des Zeigers in steps
-const float endPositionInSteps = 2048;
+const float startPositionInSteps = 0; // step Position of minTemp (please adjust)
+const float endPositionInSteps = 2048; // step position of maxTemp
 
 const float minTemp = -15; // Mindesttemperatur auf der Skala
 const float maxTemp = 40; // Maximale Temperatur auf der Skala
